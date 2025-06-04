@@ -1,4 +1,3 @@
-import React from 'react';
 import SentienceConsole from './SentienceConsole';
 import Tendai from './Tendai';
 import './CRTScanlines.css';

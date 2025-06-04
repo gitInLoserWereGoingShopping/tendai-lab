@@ -7,6 +7,7 @@ export default function Tendai() {
 
   useEffect(() => {
     const unlisten = listen((signal, data) => {
+      console.log({data, signal});
       if (Math.random() > 0.4) {
         const log = `🌱 Tendai sensed "${signal}" and grew something invisible.`;
         setLogs(prev => [...prev.slice(-4), log]);
